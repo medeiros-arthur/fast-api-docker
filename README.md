@@ -32,15 +32,15 @@ docker-compose up -d --build
 1. Navegue até a pasta do projeto no seu terminal e digite:
 
 ```
-sudo docker-compose stop
-sudo docker-compose rm
+docker-compose stop
+docker-compose rm
 ```
 
 2. Delete as imagens:
 
 ```
-sudo docker rmi fast-api-docker_fastapi-app
-sudo docker rmi python:3.11-slim
+docker rmi fast-api-docker_fastapi-app
+docker rmi python:3.11-slim
 ```
 
 3. Remova os arquivos do projeto:
