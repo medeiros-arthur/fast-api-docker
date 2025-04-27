@@ -1,5 +1,9 @@
 # COMO USAR:
 
+## Pré-requisitos:
+
+É necessário a instalação do docker.
+
 1. Abra o terminal em alguma pasta que você queria rodar a aplicação:
 
 
@@ -21,4 +25,5 @@ cd fast-api-docker
 sudo docker-compose up -d --build
 ```
 
+4. Acesse o app em http://localhost:8000/docs
 
