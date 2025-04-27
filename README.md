@@ -8,10 +8,11 @@ mkdir fast-api-docker
 cd fast-api-docker
 ```
 
-2. Clone o repositório:
+2. Clone o repositório e entre na pasta do app:
 
 ```
 git clone https://github.com/medeiros-arthur/fast-api-docker.git
+cd fast-api-docker
 ```
 
 3. Suba o compose para o docker:
