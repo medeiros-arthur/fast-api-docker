@@ -42,3 +42,10 @@ sudo docker-compose rm
 sudo docker rmi fast-api-docker_fastapi-app
 sudo docker rmi python:3.11-slim
 ```
+
+3. Remova os arquivos do projeto:
+
+```
+cd ../..
+rm -rf <nome-da-pasta-do-projeto>
+```
