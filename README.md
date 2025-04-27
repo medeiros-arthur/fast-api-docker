@@ -22,7 +22,7 @@ cd fast-api-docker
 3. Suba o compose para o docker:
 
 ```
-sudo docker-compose up -d --build
+docker-compose up -d --build
 ```
 
 4. Acesse o app em http://localhost:8000/docs
