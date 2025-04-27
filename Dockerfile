@@ -1,6 +1,13 @@
 # Use an official Python runtime as a base image
 FROM python:3.11-slim
 
+# Set environment variables
+ENV VIRTUAL_ENV=/opt/venv
+ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+
+# Create a virtual environment
+RUN python -m venv $VIRTUAL_ENV
+
 # Set working directory inside the container
 WORKDIR /app
 
