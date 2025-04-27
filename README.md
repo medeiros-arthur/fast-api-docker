@@ -27,3 +27,18 @@ sudo docker-compose up -d --build
 
 4. Acesse o app em http://localhost:8000/docs
 
+## Para parar e desinstalar o app/serviço:
+
+1. Navegue até a pasta do projeto no seu terminal e digite:
+
+```
+sudo docker-compose stop
+sudo docker-compose rm
+```
+
+2. Delete as imagens:
+
+```
+sudo docker rmi fast-api-docker_fastapi-app
+sudo docker rmi python:3.11-slim
+```
