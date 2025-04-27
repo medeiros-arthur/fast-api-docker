@@ -2,7 +2,7 @@
 
 ## Pré-requisitos:
 
-É necessário a instalação do docker.
+É necessário a instalação do docker e do git.
 
 1. Abra o terminal em alguma pasta que você queria rodar a aplicação:
 
